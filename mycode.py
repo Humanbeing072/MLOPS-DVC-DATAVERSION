@@ -10,8 +10,8 @@ data = {
 df = pd.DataFrame(data)
 
 # Adding new row for V2
-# new_row1 = {'Name': 'V2', 'Age': 20, 'City': 'City1'}
-# df.loc[len(df)] = new_row1
+new_row1 = {'Name': 'Lisa', 'Age': 20, 'City': 'Miami'}
+df.loc[len(df)] = new_row1
 
 # Adding new row for V3
 # new_row2 = {'Name': 'V3', 'Age': 22, 'City': 'City2'}
